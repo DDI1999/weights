@@ -1,0 +1,4 @@
+32/conv_96_32.bin filter=lfs diff=lfs merge=lfs -text
+onnx/convnext_96.onnx filter=lfs diff=lfs merge=lfs -text
+best_conv_96.pth filter=lfs diff=lfs merge=lfs -text
+best_conv_dict_96.pth filter=lfs diff=lfs merge=lfs -text
